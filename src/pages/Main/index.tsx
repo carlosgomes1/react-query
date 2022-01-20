@@ -3,7 +3,6 @@ import { useCallback, useMemo, useState } from "react";
 import { Form } from "../../components/Form";
 import { Header } from "../../components/Header";
 import { LocationDetails } from "../../components/LocationDetails";
-
 import { LocationsTable } from "../../components/LocationsTable";
 
 import { Container } from "./styles";

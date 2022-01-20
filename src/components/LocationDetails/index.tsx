@@ -1,7 +1,10 @@
 import { useCallback } from "react";
 import { useQuery } from "react-query";
-import api from "../../services/api";
+
 import { Loading } from "../Loading";
+
+import api from "../../services/api";
+
 import { Container } from "./styles";
 
 interface ILocationData {

@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback } from "react";
 import { FiTrash, FiEye } from "react-icons/fi";
 import { useQuery, useQueryClient, useMutation } from "react-query";
 

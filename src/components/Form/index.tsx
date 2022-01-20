@@ -8,7 +8,7 @@ import api from "../../services/api";
 import { Container } from "./styles";
 
 interface IFormProps {
-  onNavigation(newActiveComponent: "table" | "form" | "detail", isViewer?: boolean): void;
+  onNavigation(newActiveComponent: "table" | "form" | "detail"): void;
 }
 
 export function Form({ onNavigation }: IFormProps) {
